@@ -4,4 +4,3 @@ RUN useradd -m -s /bin/bash builder
 USER builder
 WORKDIR /home/builder
 RUN git clone --recursive https://github.com/nooploop/piejam_os.git
-WORKDIR piejam_os
