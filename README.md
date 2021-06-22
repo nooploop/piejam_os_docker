@@ -26,6 +26,10 @@ of your system how to install and configure `Docker`.
     ```
     sudo sh build_raspberrypi3.sh
     ```
+  * Raspberry Pi 4B
+    ```
+    sudo sh build_raspberrypi4.sh
+    ```
 * The build process might take awhile. After the build is finished you will find an image file in the working directory. You can flash it onto a microSD card:
   ```
   dd if=sdcard.img of=/dev/sdX
